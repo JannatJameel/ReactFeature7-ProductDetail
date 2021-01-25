@@ -4,6 +4,7 @@ import { ProductWrapper } from "../styles";
 const ProductItem = (props) => {
   const product = props.product;
   const setProduct = props.setProduct;
+  const deleteProduct = props.deleteProduct;
   
   return (
     <ProductWrapper>
